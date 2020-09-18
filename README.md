@@ -88,6 +88,17 @@ python -m CycleGAN_TensorFlow.main \
 ```
 The result is saved in CycleGAN_TensorFlow/output/cyclegan/exp_01/#new_timestamp#.
 
+## What I need to do to get started:
+## Go in home directory:
+
+## 0. download dataset zip file and extract it in input folder in cyclegan-1
+
+## 1. create dataset using this command (it generates csv file):
+# python -m cyclegan-1.create_cyclegan_dataset --dataset_name="horse2zebra_train" --do_shuffle=0
+
+## 2. train the network
+# python -m cyclegan-1.main --to_train=1 --log_dir=./cyclegan-1/output/cyclegan/exp_01 --config_filename=./cyclegan-1/configs/exp_01.json
+
 
 
 

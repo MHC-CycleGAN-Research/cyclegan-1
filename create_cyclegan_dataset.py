@@ -34,11 +34,11 @@ def create_list(foldername, fulldir=True, suffix=".jpg"):
 @click.command()
 @click.option('--image_path_a',
               type=click.STRING,
-              default='./input/horse2zebra/trainA',
+              default='./cyclegan-1/input/horse2zebra/trainA',
               help='The path to the images from domain_a.')
 @click.option('--image_path_b',
               type=click.STRING,
-              default='./input/horse2zebra/trainB',
+              default='./cyclegan-1/input/horse2zebra/trainB',
               help='The path to the images from domain_b.')
 @click.option('--dataset_name',
               type=click.STRING,
